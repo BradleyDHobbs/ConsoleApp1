@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ConsoleApp1": {
+      "commandName": "Project",
+      "commandLineArgs": "--taskbar show",
+      "nativeDebugging": true
+    }
+  }
+}
