@@ -106,6 +106,12 @@ namespace ConsoleApp1
                 e.SuppressEvent = true;
             }
 
+            if (isAltPressed && e.Data.KeyCode == KeyCode.VcSpace)
+            {
+                Log.Warning("Alt+Space combination detected and suppressed.");
+                e.SuppressEvent = true;
+            }
+
             // Suppress Meta (Windows) key
             if (e.Data.KeyCode == KeyCode.VcLeftMeta)
             {
